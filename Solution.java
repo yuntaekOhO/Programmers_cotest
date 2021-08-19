@@ -5,7 +5,8 @@ public class Solution {
 	 
 	public String solution(String[] participant, String[] completion) {
 		String answer = "";
-	    HashMap<String, Integer> h = new HashMap<String, Integer>();
+	    
+		HashMap<String, Integer> h = new HashMap<String, Integer>();
 	    	
 	    for(String k : participant){
 	    		h.put(k, h.getOrDefault(k,0)+1);
